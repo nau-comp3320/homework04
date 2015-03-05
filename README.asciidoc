@@ -1,0 +1,60 @@
+homework04: Solving a maze with Prolog
+======================================
+:toc: left
+:toc-title: homework03
+
+Due date:: 2015-03-24 00:00 CST
+Fork from:: https://github.com/nau-comp3320/homework04/fork
+
+
+Objectives
+----------
+
+When you have completed this homework, you should be able to write Prolog programs that:
+
+* Can manipulate lists
+* Use recursion to work with lists
+* Use recursive algorithms that use accumulators
+* Use cuts effectively
+* Use the negation operator
+
+
+Grading
+-------
+
+For this assignment, I will continue to use Piazza as a means for you to help
+each other with this homework.  The purpose is to help each other learn.  As
+such, I will make a portion of your grade dependent upon your participation
+within Piazza and the extent to which you ask questions and help answer other
+people's questions.  You can always e-mail me directly with questions, but you
+can ask your peers anonymously on Piazza.  The Piazza page for our class is at
+https://piazza.com/na/spring2015/comp3320/home[].
+
+The rest of the grade will be determined based on the correctness and style of
+the code you submit.  This assignment will be due on 24 Mar 2015 at 00:00 CST.
+
+
+Procedure
+---------
+
+This homework wil build on the skills you should have acquired during the
+previous assignment and should help you develop the skills necessary to write
+simple Prolog programs.  You will be writing a program such that, given the
+description of a maze as a series of facts, it will be able to find a path from
+the beginning to the end and determine the length of that path.
+
+This assignment is divided into two parts.  In the first part, you will be
+creating a small library of predicates that will help you with the second part
+of the assignment, specifically predicates for determining list membershib,
+reversing a list, and determining the length of a list.
+
+In the second part, you will build the maze-solving part of the program by
+first writing a predicate for determing if two cells are connected.  Next, you
+will build on this by defining a predicate that you can use to find the path
+between two cells.   Finally, you will be able to put everything together by
+writing a predicate that takes the start and end cells and then determines the
+path from the start to the end and the length of that path.
+
+Just as with the previous assignment, you can enable tests step by step to help
+you develop your program.  Extra instructions are included in 'maze.pl', the
+file where you will be implementing your solution.
