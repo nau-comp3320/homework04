@@ -3,7 +3,7 @@ homework04: Solving a maze with Prolog
 :toc: left
 :toc-title: homework03
 
-Due date:: 2015-03-24 00:00 CST
+Due date:: 2015-03-25 00:00 CST
 Fork from:: https://github.com/nau-comp3320/homework04/fork
 
 
